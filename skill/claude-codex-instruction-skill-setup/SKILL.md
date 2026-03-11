@@ -1,9 +1,9 @@
 ---
-name: claude-codex-integration
-description: Bootstrap or normalize a single-source-of-truth Claude/Codex workstation using two explicit modes. Use this skill when the user wants either (1) a new-machine setup that applies a standard shared structure from scratch, or (2) an existing-machine cleanup-and-apply flow that inspects older instruction files and prior local setup before normalizing them. Trigger on requests like "set up Claude and Codex to share one instruction source", "new machine setup", "existing machine cleanup", "link Claude and Codex globals", or "install this skill so both tools use one source". For existing machines, inspect older `agent.md`-style files first and ask before merging their content into Claude. Always add the delete-safety rules, and only symlink skills that the user explicitly asked to newly install or newly create.
+name: claude-codex-instruction-skill-setup
+description: Bootstrap or normalize a single-source-of-truth Claude/Codex workstation focused on shared instruction files and new-skill linking, using two explicit modes. Use this skill when the user wants either (1) a new-machine setup that applies a standard shared structure from scratch, or (2) an existing-machine cleanup-and-apply flow that inspects older instruction files and prior local setup before normalizing them. Trigger on requests like "set up Claude and Codex to share one instruction source", "new machine setup", "existing machine cleanup", "link Claude and Codex instruction files", or "install this skill so both tools use one source". For existing machines, inspect older `agent.md`-style files first and ask before merging their content into Claude. Always add the delete-safety rules, and only symlink skills that the user explicitly asked to newly install or newly create.
 ---
 
-# Claude Codex Integration
+# Claude Codex Instruction Skill Setup
 
 ## Human Summary
 

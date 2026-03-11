@@ -1,4 +1,0 @@
-interface:
-  display_name: "Claude/Codex Integration"
-  short_description: "Set up a shared Claude/Codex instruction and skill flow"
-  default_prompt: "Use $claude-codex-integration in either new-machine or existing-machine mode to set up shared Claude/Codex instructions and any newly requested shared skills."

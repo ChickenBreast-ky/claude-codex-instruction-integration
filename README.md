@@ -1,6 +1,6 @@
-# Claude Codex Integration
+# Claude Codex Instruction Skill Setup
 
-Public skill for setting up one editable instruction source for Claude and Codex, plus a predictable pattern for newly requested shared skills.
+Public skill for setting up one editable instruction source for Claude and Codex, plus a predictable linking pattern for newly requested shared skills.
 
 ## What It Does
 
@@ -21,20 +21,20 @@ Copy the skill directory into your Claude skills folder, then link it into your 
 
 ```bash
 mkdir -p ~/.claude/skills ~/.codex/skills
-cp -R ./skill/claude-codex-integration ~/.claude/skills/claude-codex-integration
-ln -sfn ~/.claude/skills/claude-codex-integration ~/.codex/skills/claude-codex-integration
+cp -R ./skill/claude-codex-instruction-skill-setup ~/.claude/skills/claude-codex-instruction-skill-setup
+ln -sfn ~/.claude/skills/claude-codex-instruction-skill-setup ~/.codex/skills/claude-codex-instruction-skill-setup
 ```
 
 ## Use
 
 Example prompts:
 
-- `Use $claude-codex-integration in new-machine mode and apply the setup.`
-- `Use $claude-codex-integration in existing-machine mode, inspect the current state, then clean up and apply the setup.`
+- `Use $claude-codex-instruction-skill-setup in new-machine mode and apply the setup.`
+- `Use $claude-codex-instruction-skill-setup in existing-machine mode, inspect the current state, then clean up and apply the setup.`
 
 ## Repository Layout
 
-- `skill/claude-codex-integration/`
+- `skill/claude-codex-instruction-skill-setup/`
   - The actual skill folder to install.
 - `README.md`
   - Human-facing overview and installation notes.

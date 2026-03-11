@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude/Codex Instruction Setup"
+  short_description: "Set up shared Claude/Codex instructions and skill linking"
+  default_prompt: "Use $claude-codex-instruction-skill-setup in either new-machine or existing-machine mode to set up shared Claude/Codex instructions and any newly requested shared skills."
