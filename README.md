@@ -1,5 +1,7 @@
 # Claude Codex Instruction Integration
 
+[한국어 README](./README.ko.md)
+
 Public skill for integrating Claude and Codex around one editable instruction source, plus a predictable linking pattern for newly requested shared skills.
 
 ## What It Does
